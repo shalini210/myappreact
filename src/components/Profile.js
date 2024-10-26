@@ -1,11 +1,16 @@
+// https://github.com/shalini210/myappreact
+
+
 import React from 'react'
-import userimg from "../images/user1.jpeg"
+import usrImg from "../images/user1.jpeg"
+
 import {Link} from "react-router-dom"
 export default function Profile() {
   return (
     <div className='sidebar'>
         <div className='center'>
-        <img src={userimg} className="profileimg"></img>
+          <img src={usrImg} className="profileimg"></img>
+        {/* <img src={userimg} className="profileimg"></img> */}
         <div>Ian Dunkerley</div>
             <div> Software Developer</div>
 

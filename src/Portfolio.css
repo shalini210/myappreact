@@ -42,3 +42,33 @@
     text-decoration: none;
     
 }
+.project
+{
+width: 45%;
+height: 40dvh;
+display: flex;
+flex-direction: column;
+gap:10px;
+}
+.pname
+{
+font-size:20px;
+font-weight: bold;
+text-decoration: underline;
+}
+.bold
+{
+    font-weight: bold;
+}
+
+.projectcontainer
+{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left:50px;
+    
+    padding-right: 50px;
+    box-sizing: border-box;
+    justify-content: space-between;
+
+}

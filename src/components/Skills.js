@@ -8,9 +8,12 @@ export default function Skills() {
         </div>
     })
   return (
-    <div>Skills:
-        <br></br>
+    <>
+    <h1>Skills</h1>
+       
+       <div className=''>
         {skillui}
     </div>
+    </>
   )
 }
