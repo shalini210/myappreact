@@ -31,19 +31,38 @@
 {
     width:250px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .product>img
 {
     height: 150px;
     width: 150px;
 }
+.btn
+{
+    height:40px;
+    width: 150px;   
+    color:rgb(251, 248, 248);
+    /* border-radius:5%; */
+    border:none;
+    margin-top:10px;
+    font-size: 16px;
+
+}
+.btn:hover{
+    background-color: brown;
+}
 .btnviewmore
 {
-    height:50px;
-    width: 150px;
-    background-color: rgb(126, 177, 74);
-    color:white;
-    border-radius:5%;
+    background-color: rgb(91, 91, 183);
+ 
+}
+.btnaddcart
+{
+    background-color: #37b139   ;
 }
 .productcontainer
 {
@@ -54,4 +73,14 @@
 .skillname
 {
     font-weight: bold;
+}
+.countergroup
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+    height: 40px;
+    margin-top: 10px;
+
 }

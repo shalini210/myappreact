@@ -1,0 +1,4 @@
+export default  products=[
+    {category:'kids-gun',name:'Black Boss Special Effect Pyro Sparkle Gun',
+price:"₹400.00",Highlights:"Buy Black Boss Special Effect Pyro Sparkle Gun online within Ahmedabad, Gujarat. Free shipping over orders above 1999 INR anywhere in Ahmedabad. Pay cash on delivery on every order! We keep best quality and branded fireworks and our physical store is at Vastrapur known by the name of Babla Traders since 40+ Years. Product details can be observed and concluded by the images shown. You can reach us by mail or whatsapp or call. Our mail id is fireworks2home@gmail.com. You can also place order via whatsapp or call us +918320033403."   }
+]
